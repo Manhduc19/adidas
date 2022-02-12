@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4929E02C27664CCA00C78E86 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4929E02A27664CCA00C78E86 /* ProductCell.swift */; };
+		4929E02D27664CCA00C78E86 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4929E02B27664CCA00C78E86 /* ProductCell.xib */; };
+		4929E03027665E7A00C78E86 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4929E02F27665E7A00C78E86 /* Product.swift */; };
+		4929E03227665E8B00C78E86 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4929E03127665E8A00C78E86 /* Data.swift */; };
+		494BE7762760992D00238DE1 /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE7742760992D00238DE1 /* LoginVCViewController.swift */; };
+		494BE7772760992D00238DE1 /* LoginVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494BE7752760992D00238DE1 /* LoginVCViewController.xib */; };
+		494F9EBA2765F5A3008F9560 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F9EB82765F5A3008F9560 /* SearchBarViewController.swift */; };
+		494F9EBB2765F5A3008F9560 /* SearchBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494F9EB92765F5A3008F9560 /* SearchBarViewController.xib */; };
+		494F9EBC2765FE4C008F9560 /* Pods_AdidasApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B543C4CE8DF318EA425CEC65 /* Pods_AdidasApp.framework */; };
+		495D84E827668C6000A4A8DC /* AdizeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495D84E627668C6000A4A8DC /* AdizeroCell.swift */; };
+		495D84E927668C6000A4A8DC /* AdizeroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495D84E727668C6000A4A8DC /* AdizeroCell.xib */; };
+		49772C32277A0BB90002B36B /* DetailProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49772C30277A0BB90002B36B /* DetailProductViewController.swift */; };
+		49772C33277A0BB90002B36B /* DetailProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49772C31277A0BB90002B36B /* DetailProductViewController.xib */; };
+		49B0E2BC27666E22008FAE76 /* DataProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0E2BB27666E22008FAE76 /* DataProduct.swift */; };
+		49CDF76827666D4C00E3CFBD /* DetailProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDF76727666D4C00E3CFBD /* DetailProduct.swift */; };
+		49DBD9D52765D2F700857927 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9D32765D2F700857927 /* HomeViewController.swift */; };
+		49DBD9D62765D2F700857927 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DBD9D42765D2F700857927 /* HomeViewController.xib */; };
+		49DBD9DA2765D3DE00857927 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9D82765D3DE00857927 /* FavoriteViewController.swift */; };
+		49DBD9DB2765D3DE00857927 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DBD9D92765D3DE00857927 /* FavoriteViewController.xib */; };
+		49DBD9DF2765D40D00857927 /* CartBagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9DD2765D40D00857927 /* CartBagViewController.swift */; };
+		49DBD9E02765D40D00857927 /* CartBagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DBD9DE2765D40D00857927 /* CartBagViewController.xib */; };
+		49DBD9E42765E8D500857927 /* SildeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9E22765E8D500857927 /* SildeCell.swift */; };
+		49DBD9E52765E8D500857927 /* SildeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DBD9E32765E8D500857927 /* SildeCell.xib */; };
+		49DF70C3275B5A4F00E51749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF70C2275B5A4F00E51749 /* AppDelegate.swift */; };
+		49DF70C5275B5A4F00E51749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF70C4275B5A4F00E51749 /* SceneDelegate.swift */; };
+		49DF70C7275B5A4F00E51749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF70C6275B5A4F00E51749 /* ViewController.swift */; };
+		49DF70CA275B5A4F00E51749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DF70C8275B5A4F00E51749 /* Main.storyboard */; };
+		49DF70CC275B5A5000E51749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DF70CB275B5A5000E51749 /* Assets.xcassets */; };
+		49DF70CF275B5A5000E51749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DF70CD275B5A5000E51749 /* LaunchScreen.storyboard */; };
+		49DF70D7275B5B9800E51749 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49DF70D6275B5B9800E51749 /* GoogleService-Info.plist */; };
+		49DF70DB275B5BF300E51749 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF70D9275B5BF300E51749 /* LoginViewController.swift */; };
+		49DF70DC275B5BF300E51749 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DF70DA275B5BF300E51749 /* LoginViewController.xib */; };
+		49DF70E0275B5C4000E51749 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF70DE275B5C4000E51749 /* MainTabbarViewController.swift */; };
+		49DF70E1275B5C4000E51749 /* MainTabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DF70DF275B5C4000E51749 /* MainTabbarViewController.xib */; };
+		49DF70E5275B640E00E51749 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF70E3275B640E00E51749 /* RegisterViewController.swift */; };
+		49DF70E6275B640E00E51749 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DF70E4275B640E00E51749 /* RegisterViewController.xib */; };
+		49E4FE142768A58A002A249E /* AllProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4FE122768A58A002A249E /* AllProductViewController.swift */; };
+		49E4FE152768A58A002A249E /* AllProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E4FE132768A58A002A249E /* AllProductViewController.xib */; };
+		49E5D7EA2760A86100FD86E1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5D7E82760A86100FD86E1 /* ProfileViewController.swift */; };
+		49E5D7EB2760A86100FD86E1 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E5D7E92760A86100FD86E1 /* ProfileViewController.xib */; };
+		49E5D7EF27610D1800FD86E1 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5D7ED27610D1800FD86E1 /* ChangePasswordViewController.swift */; };
+		49E5D7F027610D1800FD86E1 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E5D7EE27610D1800FD86E1 /* ChangePasswordViewController.xib */; };
+		49E5D7F42761128E00FD86E1 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5D7F22761128E00FD86E1 /* PaymentViewController.swift */; };
+		49E5D7F52761128E00FD86E1 /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E5D7F32761128E00FD86E1 /* PaymentViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D9085172B6BB942BB0E7123 /* Pods-AdidasApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdidasApp.debug.xcconfig"; path = "Target Support Files/Pods-AdidasApp/Pods-AdidasApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4929E02A27664CCA00C78E86 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		4929E02B27664CCA00C78E86 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		4929E02F27665E7A00C78E86 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4929E03127665E8A00C78E86 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		494BE7742760992D00238DE1 /* LoginVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
+		494BE7752760992D00238DE1 /* LoginVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVCViewController.xib; sourceTree = "<group>"; };
+		494F9EB82765F5A3008F9560 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		494F9EB92765F5A3008F9560 /* SearchBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBarViewController.xib; sourceTree = "<group>"; };
+		495D84E627668C6000A4A8DC /* AdizeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdizeroCell.swift; sourceTree = "<group>"; };
+		495D84E727668C6000A4A8DC /* AdizeroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdizeroCell.xib; sourceTree = "<group>"; };
+		49772C30277A0BB90002B36B /* DetailProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductViewController.swift; sourceTree = "<group>"; };
+		49772C31277A0BB90002B36B /* DetailProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailProductViewController.xib; sourceTree = "<group>"; };
+		49B0E2BB27666E22008FAE76 /* DataProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProduct.swift; sourceTree = "<group>"; };
+		49CDF76727666D4C00E3CFBD /* DetailProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProduct.swift; sourceTree = "<group>"; };
+		49DBD9D32765D2F700857927 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		49DBD9D42765D2F700857927 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		49DBD9D82765D3DE00857927 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		49DBD9D92765D3DE00857927 /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		49DBD9DD2765D40D00857927 /* CartBagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartBagViewController.swift; sourceTree = "<group>"; };
+		49DBD9DE2765D40D00857927 /* CartBagViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartBagViewController.xib; sourceTree = "<group>"; };
+		49DBD9E22765E8D500857927 /* SildeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SildeCell.swift; sourceTree = "<group>"; };
+		49DBD9E32765E8D500857927 /* SildeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SildeCell.xib; sourceTree = "<group>"; };
+		49DF70BF275B5A4F00E51749 /* AdidasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdidasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DF70C2275B5A4F00E51749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49DF70C4275B5A4F00E51749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		49DF70C6275B5A4F00E51749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49DF70C9275B5A4F00E51749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49DF70CB275B5A5000E51749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49DF70CE275B5A5000E51749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49DF70D0275B5A5000E51749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DF70D6275B5B9800E51749 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "AdidasApp/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		49DF70D9275B5BF300E51749 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		49DF70DA275B5BF300E51749 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		49DF70DE275B5C4000E51749 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		49DF70DF275B5C4000E51749 /* MainTabbarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabbarViewController.xib; sourceTree = "<group>"; };
+		49DF70E3275B640E00E51749 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		49DF70E4275B640E00E51749 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		49E4FE122768A58A002A249E /* AllProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProductViewController.swift; sourceTree = "<group>"; };
+		49E4FE132768A58A002A249E /* AllProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllProductViewController.xib; sourceTree = "<group>"; };
+		49E5D7E82760A86100FD86E1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		49E5D7E92760A86100FD86E1 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		49E5D7ED27610D1800FD86E1 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		49E5D7EE27610D1800FD86E1 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		49E5D7F22761128E00FD86E1 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		49E5D7F32761128E00FD86E1 /* PaymentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentViewController.xib; sourceTree = "<group>"; };
+		B0917CEDBA55D74193E67B3F /* Pods-AdidasApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdidasApp.release.xcconfig"; path = "Target Support Files/Pods-AdidasApp/Pods-AdidasApp.release.xcconfig"; sourceTree = "<group>"; };
+		B543C4CE8DF318EA425CEC65 /* Pods_AdidasApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdidasApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49DF70BC275B5A4F00E51749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494F9EBC2765FE4C008F9560 /* Pods_AdidasApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0209890F775FD203F9825ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B543C4CE8DF318EA425CEC65 /* Pods_AdidasApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4929E02E27665E6200C78E86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4929E02F27665E7A00C78E86 /* Product.swift */,
+				4929E03127665E8A00C78E86 /* Data.swift */,
+				49CDF76727666D4C00E3CFBD /* DetailProduct.swift */,
+				49B0E2BB27666E22008FAE76 /* DataProduct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		494BC56B276894CF0080805D /* slideCell */ = {
+			isa = PBXGroup;
+			children = (
+				49DBD9E22765E8D500857927 /* SildeCell.swift */,
+				49DBD9E32765E8D500857927 /* SildeCell.xib */,
+			);
+			path = slideCell;
+			sourceTree = "<group>";
+		};
+		494BC56C276894E60080805D /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				4929E02A27664CCA00C78E86 /* ProductCell.swift */,
+				4929E02B27664CCA00C78E86 /* ProductCell.xib */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		494BE773276098EF00238DE1 /* LoginVCC */ = {
+			isa = PBXGroup;
+			children = (
+				494BE7742760992D00238DE1 /* LoginVCViewController.swift */,
+				494BE7752760992D00238DE1 /* LoginVCViewController.xib */,
+			);
+			path = LoginVCC;
+			sourceTree = "<group>";
+		};
+		495D84EA2766904700A4A8DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49772C2F277A0B900002B36B /* DetailProductVC */,
+				49E4FE112768A4E1002A249E /* AllProduct */,
+				49DBD9E72765F2E100857927 /* SearchBarVC */,
+				49DBD9DC2765D3F700857927 /* CartBagVC */,
+				49DBD9D72765D3BB00857927 /* ListFavoriteVC */,
+				49DBD9D22765D2E400857927 /* HomeVC */,
+				49DF70D8275B5BE200E51749 /* LoginVC */,
+				49DF70E2275B63E400E51749 /* RegisterVC */,
+				49E5D7E72760A84E00FD86E1 /* ProfileVC */,
+				49DF70DD275B5C1700E51749 /* MainTabbarVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49772C2F277A0B900002B36B /* DetailProductVC */ = {
+			isa = PBXGroup;
+			children = (
+				49772C30277A0BB90002B36B /* DetailProductViewController.swift */,
+				49772C31277A0BB90002B36B /* DetailProductViewController.xib */,
+			);
+			path = DetailProductVC;
+			sourceTree = "<group>";
+		};
+		4991FA6E277C5205007C5718 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		49B0E2BD276670C1008FAE76 /* detailCell */ = {
+			isa = PBXGroup;
+			children = (
+				495D84E627668C6000A4A8DC /* AdizeroCell.swift */,
+				495D84E727668C6000A4A8DC /* AdizeroCell.xib */,
+			);
+			path = detailCell;
+			sourceTree = "<group>";
+		};
+		49DBD9D22765D2E400857927 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				49DBD9E12765E86600857927 /* Collection Cell  */,
+				49DBD9D32765D2F700857927 /* HomeViewController.swift */,
+				49DBD9D42765D2F700857927 /* HomeViewController.xib */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		49DBD9D72765D3BB00857927 /* ListFavoriteVC */ = {
+			isa = PBXGroup;
+			children = (
+				49DBD9D82765D3DE00857927 /* FavoriteViewController.swift */,
+				49DBD9D92765D3DE00857927 /* FavoriteViewController.xib */,
+			);
+			path = ListFavoriteVC;
+			sourceTree = "<group>";
+		};
+		49DBD9DC2765D3F700857927 /* CartBagVC */ = {
+			isa = PBXGroup;
+			children = (
+				49DBD9DD2765D40D00857927 /* CartBagViewController.swift */,
+				49DBD9DE2765D40D00857927 /* CartBagViewController.xib */,
+			);
+			path = CartBagVC;
+			sourceTree = "<group>";
+		};
+		49DBD9E12765E86600857927 /* Collection Cell  */ = {
+			isa = PBXGroup;
+			children = (
+				494BC56C276894E60080805D /* ProductCell */,
+				494BC56B276894CF0080805D /* slideCell */,
+				49B0E2BD276670C1008FAE76 /* detailCell */,
+			);
+			path = "Collection Cell ";
+			sourceTree = "<group>";
+		};
+		49DBD9E72765F2E100857927 /* SearchBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				494F9EB82765F5A3008F9560 /* SearchBarViewController.swift */,
+				494F9EB92765F5A3008F9560 /* SearchBarViewController.xib */,
+			);
+			path = SearchBarVC;
+			sourceTree = "<group>";
+		};
+		49DF70B6275B5A4F00E51749 = {
+			isa = PBXGroup;
+			children = (
+				49DF70C1275B5A4F00E51749 /* AdidasApp */,
+				49DF70C0275B5A4F00E51749 /* Products */,
+				85EFF2ABDA04FE040618A766 /* Pods */,
+				0209890F775FD203F9825ECD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49DF70C0275B5A4F00E51749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49DF70BF275B5A4F00E51749 /* AdidasApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49DF70C1275B5A4F00E51749 /* AdidasApp */ = {
+			isa = PBXGroup;
+			children = (
+				4991FA6E277C5205007C5718 /* Extension */,
+				49DF70C8275B5A4F00E51749 /* Main.storyboard */,
+				49DF70C4275B5A4F00E51749 /* SceneDelegate.swift */,
+				49DF70C2275B5A4F00E51749 /* AppDelegate.swift */,
+				49DF70C6275B5A4F00E51749 /* ViewController.swift */,
+				49DF70CB275B5A5000E51749 /* Assets.xcassets */,
+				49DF70D6275B5B9800E51749 /* GoogleService-Info.plist */,
+				49DF70CD275B5A5000E51749 /* LaunchScreen.storyboard */,
+				49DF70D0275B5A5000E51749 /* Info.plist */,
+				4929E02E27665E6200C78E86 /* Model */,
+				495D84EA2766904700A4A8DC /* Controller */,
+			);
+			path = AdidasApp;
+			sourceTree = "<group>";
+		};
+		49DF70D8275B5BE200E51749 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				494BE773276098EF00238DE1 /* LoginVCC */,
+				49DF70D9275B5BF300E51749 /* LoginViewController.swift */,
+				49DF70DA275B5BF300E51749 /* LoginViewController.xib */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		49DF70DD275B5C1700E51749 /* MainTabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				49DF70DE275B5C4000E51749 /* MainTabbarViewController.swift */,
+				49DF70DF275B5C4000E51749 /* MainTabbarViewController.xib */,
+			);
+			path = MainTabbarVC;
+			sourceTree = "<group>";
+		};
+		49DF70E2275B63E400E51749 /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				49DF70E3275B640E00E51749 /* RegisterViewController.swift */,
+				49DF70E4275B640E00E51749 /* RegisterViewController.xib */,
+			);
+			path = RegisterVC;
+			sourceTree = "<group>";
+		};
+		49E4FE112768A4E1002A249E /* AllProduct */ = {
+			isa = PBXGroup;
+			children = (
+				49E4FE122768A58A002A249E /* AllProductViewController.swift */,
+				49E4FE132768A58A002A249E /* AllProductViewController.xib */,
+			);
+			path = AllProduct;
+			sourceTree = "<group>";
+		};
+		49E5D7E72760A84E00FD86E1 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				49E5D7F12761126700FD86E1 /* PaymentVC */,
+				49E5D7EC27610CFA00FD86E1 /* ChangePwVC */,
+				49E5D7E82760A86100FD86E1 /* ProfileViewController.swift */,
+				49E5D7E92760A86100FD86E1 /* ProfileViewController.xib */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		49E5D7EC27610CFA00FD86E1 /* ChangePwVC */ = {
+			isa = PBXGroup;
+			children = (
+				49E5D7ED27610D1800FD86E1 /* ChangePasswordViewController.swift */,
+				49E5D7EE27610D1800FD86E1 /* ChangePasswordViewController.xib */,
+			);
+			path = ChangePwVC;
+			sourceTree = "<group>";
+		};
+		49E5D7F12761126700FD86E1 /* PaymentVC */ = {
+			isa = PBXGroup;
+			children = (
+				49E5D7F22761128E00FD86E1 /* PaymentViewController.swift */,
+				49E5D7F32761128E00FD86E1 /* PaymentViewController.xib */,
+			);
+			path = PaymentVC;
+			sourceTree = "<group>";
+		};
+		85EFF2ABDA04FE040618A766 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D9085172B6BB942BB0E7123 /* Pods-AdidasApp.debug.xcconfig */,
+				B0917CEDBA55D74193E67B3F /* Pods-AdidasApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49DF70BE275B5A4F00E51749 /* AdidasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DF70D3275B5A5000E51749 /* Build configuration list for PBXNativeTarget "AdidasApp" */;
+			buildPhases = (
+				EA0E34F7854CC8F39E7F2E1C /* [CP] Check Pods Manifest.lock */,
+				49DF70BB275B5A4F00E51749 /* Sources */,
+				49DF70BC275B5A4F00E51749 /* Frameworks */,
+				49DF70BD275B5A4F00E51749 /* Resources */,
+				EDEDCE115FBD2A29D09462C1 /* [CP] Embed Pods Frameworks */,
+				DBEB2DC83B454B3638C78A46 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdidasApp;
+			productName = AdidasApp;
+			productReference = 49DF70BF275B5A4F00E51749 /* AdidasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49DF70B7275B5A4F00E51749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					49DF70BE275B5A4F00E51749 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 49DF70BA275B5A4F00E51749 /* Build configuration list for PBXProject "AdidasApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49DF70B6275B5A4F00E51749;
+			productRefGroup = 49DF70C0275B5A4F00E51749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49DF70BE275B5A4F00E51749 /* AdidasApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49DF70BD275B5A4F00E51749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E5D7EB2760A86100FD86E1 /* ProfileViewController.xib in Resources */,
+				49DBD9DB2765D3DE00857927 /* FavoriteViewController.xib in Resources */,
+				49DF70DC275B5BF300E51749 /* LoginViewController.xib in Resources */,
+				49E5D7F027610D1800FD86E1 /* ChangePasswordViewController.xib in Resources */,
+				49DF70E1275B5C4000E51749 /* MainTabbarViewController.xib in Resources */,
+				49DBD9E02765D40D00857927 /* CartBagViewController.xib in Resources */,
+				495D84E927668C6000A4A8DC /* AdizeroCell.xib in Resources */,
+				494F9EBB2765F5A3008F9560 /* SearchBarViewController.xib in Resources */,
+				49DBD9E52765E8D500857927 /* SildeCell.xib in Resources */,
+				49DF70E6275B640E00E51749 /* RegisterViewController.xib in Resources */,
+				4929E02D27664CCA00C78E86 /* ProductCell.xib in Resources */,
+				494BE7772760992D00238DE1 /* LoginVCViewController.xib in Resources */,
+				49DF70CF275B5A5000E51749 /* LaunchScreen.storyboard in Resources */,
+				49DF70D7275B5B9800E51749 /* GoogleService-Info.plist in Resources */,
+				49DF70CC275B5A5000E51749 /* Assets.xcassets in Resources */,
+				49E5D7F52761128E00FD86E1 /* PaymentViewController.xib in Resources */,
+				49DF70CA275B5A4F00E51749 /* Main.storyboard in Resources */,
+				49DBD9D62765D2F700857927 /* HomeViewController.xib in Resources */,
+				49E4FE152768A58A002A249E /* AllProductViewController.xib in Resources */,
+				49772C33277A0BB90002B36B /* DetailProductViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBEB2DC83B454B3638C78A46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdidasApp/Pods-AdidasApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdidasApp/Pods-AdidasApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdidasApp/Pods-AdidasApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0E34F7854CC8F39E7F2E1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdidasApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDEDCE115FBD2A29D09462C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdidasApp/Pods-AdidasApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdidasApp/Pods-AdidasApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdidasApp/Pods-AdidasApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49DF70BB275B5A4F00E51749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49772C32277A0BB90002B36B /* DetailProductViewController.swift in Sources */,
+				49DF70DB275B5BF300E51749 /* LoginViewController.swift in Sources */,
+				49DBD9DF2765D40D00857927 /* CartBagViewController.swift in Sources */,
+				49DF70C7275B5A4F00E51749 /* ViewController.swift in Sources */,
+				49DF70C3275B5A4F00E51749 /* AppDelegate.swift in Sources */,
+				49E5D7EF27610D1800FD86E1 /* ChangePasswordViewController.swift in Sources */,
+				4929E03027665E7A00C78E86 /* Product.swift in Sources */,
+				49DF70E5275B640E00E51749 /* RegisterViewController.swift in Sources */,
+				4929E03227665E8B00C78E86 /* Data.swift in Sources */,
+				49DF70C5275B5A4F00E51749 /* SceneDelegate.swift in Sources */,
+				49DF70E0275B5C4000E51749 /* MainTabbarViewController.swift in Sources */,
+				49DBD9D52765D2F700857927 /* HomeViewController.swift in Sources */,
+				49B0E2BC27666E22008FAE76 /* DataProduct.swift in Sources */,
+				49E4FE142768A58A002A249E /* AllProductViewController.swift in Sources */,
+				49DBD9E42765E8D500857927 /* SildeCell.swift in Sources */,
+				49E5D7F42761128E00FD86E1 /* PaymentViewController.swift in Sources */,
+				49CDF76827666D4C00E3CFBD /* DetailProduct.swift in Sources */,
+				494F9EBA2765F5A3008F9560 /* SearchBarViewController.swift in Sources */,
+				49E5D7EA2760A86100FD86E1 /* ProfileViewController.swift in Sources */,
+				4929E02C27664CCA00C78E86 /* ProductCell.swift in Sources */,
+				495D84E827668C6000A4A8DC /* AdizeroCell.swift in Sources */,
+				49DBD9DA2765D3DE00857927 /* FavoriteViewController.swift in Sources */,
+				494BE7762760992D00238DE1 /* LoginVCViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49DF70C8275B5A4F00E51749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49DF70C9275B5A4F00E51749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49DF70CD275B5A5000E51749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49DF70CE275B5A5000E51749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49DF70D1275B5A5000E51749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49DF70D2275B5A5000E51749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49DF70D4275B5A5000E51749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9085172B6BB942BB0E7123 /* Pods-AdidasApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=*]" = "x84_64 arm64";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdidasApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TTN.AdidasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49DF70D5275B5A5000E51749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0917CEDBA55D74193E67B3F /* Pods-AdidasApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=*]" = "x84_64 arm64";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdidasApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TTN.AdidasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49DF70BA275B5A4F00E51749 /* Build configuration list for PBXProject "AdidasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DF70D1275B5A5000E51749 /* Debug */,
+				49DF70D2275B5A5000E51749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49DF70D3275B5A5000E51749 /* Build configuration list for PBXNativeTarget "AdidasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DF70D4275B5A5000E51749 /* Debug */,
+				49DF70D5275B5A5000E51749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49DF70B7275B5A4F00E51749 /* Project object */;
+}

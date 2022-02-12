@@ -1,0 +1,6 @@
+framework module Pods_AdidasApp {
+  umbrella header "Pods-AdidasApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
